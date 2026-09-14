@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sean Digital</title>
+<meta name="description" content="Sean Digital is Sean Makoi's initiative, learning digital by building real solutions. Its first project is School Tools, a growing suite for schools.">
+<style>
+  :root{
+    --brand:#1f3a5f; --brand-deep:#152a45; --accent:#c58a1a; --accent-deep:#a5720f;
+    --paper:#f4f1e9; --surface:#fffefb; --ink:#1c2b3a; --ink-soft:#6a7686; --line:#ddd7c9;
+    --font:"Century Gothic","Questrial","Avant Garde","Trebuchet MS",sans-serif;
+  }
+  *{box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{margin:0;font-family:var(--font);color:var(--ink);background:var(--paper);line-height:1.6}
+  a{color:inherit}
+  .wrap{max-width:960px;margin:0 auto;padding:0 24px}
+
+  /* top bar */
+  .bar{display:flex;align-items:center;justify-content:space-between;padding:20px 24px;max-width:960px;margin:0 auto}
+  .word{font-size:16px;letter-spacing:3px;text-transform:uppercase;font-weight:700;color:var(--brand)}
+  .word b{color:var(--accent)}
+  .bar nav a{font-size:11px;letter-spacing:1.5px;text-transform:uppercase;color:var(--ink-soft);text-decoration:none;margin-left:20px}
+  .bar nav a:hover{color:var(--brand)}
+
+  /* hero */
+  .hero{background:var(--brand);color:#fff;border-top:4px solid var(--accent);border-bottom:4px solid var(--accent)}
+  .hero .in{max-width:960px;margin:0 auto;padding:70px 24px}
+  .kicker{color:var(--accent);font-size:12px;letter-spacing:3px;text-transform:uppercase;margin-bottom:16px}
+  .hero h1{font-size:40px;letter-spacing:2px;text-transform:uppercase;margin:0 0 18px;line-height:1.1}
+  .hero p{font-size:17px;max-width:620px;color:#e7e2d4}
+  .hero .by{margin-top:22px;font-size:12px;letter-spacing:2px;text-transform:uppercase;color:#d6c290}
+
+  /* sections */
+  section{padding:60px 0}
+  .eyebrow{font-size:12px;letter-spacing:2.5px;text-transform:uppercase;color:var(--accent-deep);margin-bottom:10px}
+  h2{font-size:26px;letter-spacing:1px;text-transform:uppercase;color:var(--brand);margin:0 0 16px}
+  .lead{font-size:16px;max-width:680px;color:var(--ink)}
+  .muted{color:var(--ink-soft)}
+
+  .divider{height:1px;background:var(--line);max-width:960px;margin:0 auto}
+
+  /* suite */
+  .suite-head{display:flex;align-items:baseline;gap:14px;flex-wrap:wrap}
+  .badge{display:inline-block;background:var(--accent);color:#fff;font-size:10px;letter-spacing:1.5px;text-transform:uppercase;padding:3px 10px}
+  .cards{display:grid;grid-template-columns:1fr 1fr;gap:20px;margin-top:30px}
+  .card{background:var(--surface);border:1px solid var(--line);border-top:4px solid var(--accent);padding:28px;display:flex;flex-direction:column}
+  .card .ic{width:56px;height:56px;margin-bottom:16px}
+  .card h3{margin:0 0 4px;font-size:18px;letter-spacing:1.5px;text-transform:uppercase;color:var(--brand)}
+  .card .role{font-size:11px;letter-spacing:1.5px;text-transform:uppercase;color:var(--ink-soft);margin-bottom:12px}
+  .card p{margin:0 0 20px;font-size:14px;color:var(--ink)}
+  .card .btn{margin-top:auto;align-self:flex-start;background:var(--brand);color:#fff;text-decoration:none;font-size:11px;letter-spacing:1.5px;text-transform:uppercase;padding:12px 20px;border:1px solid var(--brand-deep)}
+  .card .btn:hover{background:var(--brand-deep)}
+  .card .soon{margin-top:14px;font-size:11px;color:var(--ink-soft);font-style:italic}
+
+  .more{margin-top:26px;font-size:14px;color:var(--ink-soft)}
+  .more b{color:var(--brand)}
+
+  footer{background:var(--brand);color:#fff;border-top:4px solid var(--accent);margin-top:20px}
+  footer .in{max-width:960px;margin:0 auto;padding:40px 24px;display:flex;justify-content:space-between;flex-wrap:wrap;gap:16px;align-items:center}
+  footer .in .l{font-size:13px;color:#e7e2d4}
+  footer .in .r{font-size:11px;letter-spacing:1.5px;text-transform:uppercase;color:#d6c290}
+
+  @media(max-width:640px){
+    .hero h1{font-size:30px}
+    .cards{grid-template-columns:1fr}
+    .bar nav{display:none}
+  }
+</style>
+</head>
+<body>
+  <div class="bar">
+    <div class="word">Sean <b>Digital</b></div>
+    <nav>
+      <a href="#initiative">Initiative</a>
+      <a href="#schooltools">School Tools</a>
+      <a href="#tools">Tools</a>
+    </nav>
+  </div>
+
+  <div class="hero">
+    <div class="in">
+      <div class="kicker">An initiative by Sean Makoi</div>
+      <h1>Sean Digital</h1>
+      <p>Learning digital by building real solutions. Sean Digital is where ideas become working tools that people can actually use.</p>
+      <div class="by">Building in the open</div>
+    </div>
+  </div>
+
+  <section id="initiative">
+    <div class="wrap">
+      <div class="eyebrow">The initiative</div>
+      <h2>Solutions, not just study</h2>
+      <p class="lead">Sean Digital is Sean Makoi's endeavour to learn digital skills by creating things that solve real problems. Rather than only studying technology, the work here is shipped, used, and improved. Each project starts from a genuine need and grows from there.</p>
+    </div>
+  </section>
+
+  <div class="divider"></div>
+
+  <section id="schooltools">
+    <div class="wrap">
+      <div class="suite-head">
+        <div class="eyebrow" style="margin:0">The first project</div>
+        <span class="badge">School Tools</span>
+      </div>
+      <h2 style="margin-top:14px">Practical tools for schools</h2>
+      <p class="lead">School Tools is the first project under Sean Digital. A growing suite of simple, reliable tools built for the way schools actually work. It comes in variations, each one a focused tool a school can adopt on its own. Two are ready, with more to follow.</p>
+    </div>
+  </section>
+
+  <section id="tools" style="padding-top:0">
+    <div class="wrap">
+      <div class="cards">
+
+        <div class="card">
+          <svg class="ic" viewBox="0 0 64 64" aria-hidden="true">
+            <g fill="none" stroke="#1f3a5f" stroke-width="3" stroke-linejoin="round" stroke-linecap="round">
+              <path d="M32 18 C26 13 16 13 10 15 L10 46 C16 44 26 44 32 49"/>
+              <path d="M32 18 C38 13 48 13 54 15 L54 46 C48 44 38 44 32 49"/>
+              <line x1="32" y1="18" x2="32" y2="49"/></g>
+            <g stroke="#c58a1a" stroke-width="2" stroke-linecap="round">
+              <line x1="15" y1="22" x2="27" y2="23.5"/><line x1="37" y1="23.5" x2="49" y2="22"/></g>
+          </svg>
+          <h3>School Tools Study</h3>
+          <div class="role">Library &amp; lending</div>
+          <p>Log every book borrowed and returned with automatic date and time, flag loans that pass their limit, and keep a clear record of what is out and what is back.</p>
+          <!-- Replace href once School Tools Study is deployed -->
+          <a class="btn" href="#">Open Study</a>
+          <div class="soon">Add your deployed link here.</div>
+        </div>
+
+        <div class="card">
+          <svg class="ic" viewBox="0 0 64 64" aria-hidden="true">
+            <g fill="none" stroke="#1f3a5f" stroke-width="3" stroke-linejoin="round" stroke-linecap="round">
+              <path d="M6 26 L32 16 L58 26 L32 36 Z"/>
+              <path d="M18 31 L18 44 C18 44 24 49 32 49 C40 49 46 44 46 44 L46 31"/>
+              <line x1="58" y1="26" x2="58" y2="40"/></g>
+            <circle cx="58" cy="42" r="2.6" fill="#c58a1a"/>
+          </svg>
+          <h3>School Tools Score</h3>
+          <div class="role">Grading &amp; results</div>
+          <p>Enter every student's marks class by class, compute grades, points and division on the NECTA scales, rank each class, and produce printable result sheets.</p>
+          <!-- Replace href once School Tools Score is deployed -->
+          <a class="btn" href="#">Open Score</a>
+          <div class="soon">Add your deployed link here.</div>
+        </div>
+
+      </div>
+      <p class="more"><b>More variations coming.</b> The suite is built to grow, one focused tool at a time, as schools need them.</p>
+    </div>
+  </section>
+
+  <footer>
+    <div class="in">
+      <div class="l">Sean Digital, an initiative by Sean Makoi.</div>
+      <div class="r">&copy; 2026 Sean Makoi</div>
+    </div>
+  </footer>
+</body>
+</html>

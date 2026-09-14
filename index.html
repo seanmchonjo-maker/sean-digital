@@ -32,6 +32,12 @@
   .hero p{font-size:17px;max-width:620px;color:#e7e2d4}
   .hero .by{margin-top:22px;font-size:12px;letter-spacing:2px;text-transform:uppercase;color:#d6c290}
 
+
+  .hero .in{display:flex;gap:44px;align-items:center;flex-wrap:wrap}
+  .hero .htext{flex:1;min-width:280px}
+  .portrait{width:190px;height:190px;border-radius:50%;object-fit:cover;border:4px solid var(--accent);background:#fff;flex:none;box-shadow:0 10px 30px -12px rgba(0,0,0,.5)}
+  @media(max-width:640px){ .hero .in{justify-content:center;text-align:center} .portrait{width:150px;height:150px} }
+
   /* sections */
   section{padding:60px 0}
   .eyebrow{font-size:12px;letter-spacing:2.5px;text-transform:uppercase;color:var(--accent-deep);margin-bottom:10px}
@@ -81,10 +87,13 @@
 
   <div class="hero">
     <div class="in">
-      <div class="kicker">An initiative by Sean Makoi</div>
-      <h1>Sean Digital</h1>
-      <p>Learning digital by building real solutions. Sean Digital is where ideas become working tools that people can actually use.</p>
-      <div class="by">Building in the open</div>
+      <img class="portrait" src="sean.jpg" alt="Sean Makoi" onerror="this.style.display='none'">
+      <div class="htext">
+        <div class="kicker">An initiative by Sean Makoi</div>
+        <h1>Sean Digital</h1>
+        <p>Learning digital by building real solutions. Sean Digital is where ideas become working tools that people can actually use.</p>
+        <div class="by">Building in the open</div>
+      </div>
     </div>
   </div>
 
@@ -125,9 +134,7 @@
           <h3>School Tools Study</h3>
           <div class="role">Library &amp; lending</div>
           <p>Log every book borrowed and returned with automatic date and time, flag loans that pass their limit, and keep a clear record of what is out and what is back.</p>
-          <!-- Replace href once School Tools Study is deployed -->
-          <a class="btn" href="#">Open Study</a>
-          <div class="soon">Add your deployed link here.</div>
+          <a class="btn" href="https://school-tools-study.onrender.com" target="_blank" rel="noopener">Open Study</a>
         </div>
 
         <div class="card">
@@ -141,9 +148,7 @@
           <h3>School Tools Score</h3>
           <div class="role">Grading &amp; results</div>
           <p>Enter every student's marks class by class, compute grades, points and division on the NECTA scales, rank each class, and produce printable result sheets.</p>
-          <!-- Replace href once School Tools Score is deployed -->
-          <a class="btn" href="#">Open Score</a>
-          <div class="soon">Add your deployed link here.</div>
+          <a class="btn" href="https://school-tools-score.onrender.com" target="_blank" rel="noopener">Open Score</a>
         </div>
 
       </div>
